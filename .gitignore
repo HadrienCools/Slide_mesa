@@ -1,0 +1,9 @@
+/ENV/*
+/drivers/*
+geckodriver.log
+/__pychache__/*
+geckodriver.log
+notes.txt
+/__pychache__
+/__pychache__/*
+*__pycache__/
