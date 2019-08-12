@@ -1,11 +1,18 @@
 from app.slide_generation.slide_maker import slide_maker
 
 #
+from app.database.manager import manager
+#import app.database.manager  
+
+#
 from flask import Flask
 
 class create_legacy_app:
     def __init__(self):
-        #slide_object = slide_maker()
+        slide_object = slide_maker()
+        #db  = createDB()
+        #db.createDB()
+        manager.add_user()
         print("fonction slide desactive")
 
 #class create_app:
